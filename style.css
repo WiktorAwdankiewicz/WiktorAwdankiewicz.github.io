@@ -1,0 +1,275 @@
+body {
+	background-color: #F5F0EC;
+}
+
+#nazwa {
+	margin-right:auto;
+	padding-top: 10px;
+}
+
+.nawigacja {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	list-style-type: none;
+	display: flex;
+}
+
+.nawigacja-elementy {
+	padding-right: 25px;
+	padding-top: 5px;
+}
+
+.nawigacja-elementy a {
+	text-decoration: none;
+}
+
+.nawigacja-elementy a:hover {
+	color: green;
+}
+
+.intro {
+	display: flex;
+}
+
+.intro-lewa {
+	width: 50%;
+	height: 600px;
+	padding-left: 8%;
+	padding-top: 6%;
+	background-color: #DCC1AB;
+}
+
+.intro-lewa-przycisk1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 50px;
+	background-color: #1B5B31;
+	color: white;
+}
+
+.intro-lewa-przycisk1:hover {
+	color: #1B5B31;
+	background-color: white;
+}
+
+.intro-lewa-przycisk2 {
+	padding: 10px;
+	margin-left: 10px;
+	text-decoration: none;
+	color: #1B5B31;
+	border: 1px solid #1B5B31;
+}
+
+.intro-lewa-przycisk2:hover {
+	border: 1px solid limegreen;
+	color: limegreen;
+}
+
+.intro-prawa {
+	width: 50%;
+	height: 600px;
+	background-color: #DCC1AB;
+}
+
+.intro-prawa-obraz {
+	width: 100%;
+	height: 100%;
+	
+}
+
+.intro-back,
+.intro-next {
+	margin-top: -80px;
+	color: black;
+	background-color: white;
+	font-size: 30px;
+}
+
+.intro-next {
+	
+}
+
+.intro-back:hover,
+.intro-next:hover {
+	color: white;
+	background-color: green;
+}
+
+.oferta {
+	width: 100%;
+	display: flex;
+}
+
+.oferta-elementy {
+	border-radius: 25px;
+	background-color: white;
+	margin-left: 5%;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+}
+
+.oferta-elementy:hover {
+	background-color: Gainsboro;
+}
+
+.oferta-elementy a {
+	color: green;
+}
+
+.oferta-elementy a:hover {
+	color: lime;
+}
+
+.oferta-elementy p {
+	font-size: 12px;
+}
+
+.ofirmie {
+	width: 100%;
+	height: 600px;
+	background-color: #1B5B31;
+	color: white;
+	padding-left: 100px;
+	padding-top: 100px;
+}
+
+.ofirmie a {
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+}
+
+.ofirmie a:hover {
+	border: 1px solid lime;
+	color: lime;
+}
+
+.realizacje {
+	background-color: #DCC1AB;
+}
+
+.galeria {
+	width: 100%;
+	columns: 3;
+	column-gap: 40px;
+	background-color: #DCC1AB;
+}
+
+.galeria .box {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.galeria .box img {
+	max-width: 100%;
+	
+}
+
+.kontakt {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	height: 350px;
+	color: white;
+	background-color: #1B5B31;
+}
+
+.kontakt h1 {
+	padding-top: 125px;
+	padding-left: 75px;
+}
+
+.kontakt p {
+	padding-top: 100px;
+	padding-right: 75px;
+}
+
+.kontakt a {
+	margin-top:15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: white;
+	color: #1B5B31;
+}
+
+.kontakt a:hover {
+	color: black;
+	background-color: Gainsboro;
+}
+
+.kontakt-bottom {
+	width: 100%;
+	height: 450px;
+	background-color: 111111;
+	color: white;
+}
+
+.kontakt-bottom-1 {
+	width: 80%;
+	display: flex;
+	margin-left: 10%;
+	padding-top: 5%;
+}
+
+.kontakt-bottom-1 h5 {
+	margin-right: auto;
+	padding-top: 10px;
+}
+
+.kontakt-bottom-1 p {
+	padding-top: 10px;
+}
+
+.kontakt-bottom-1 a {
+	margin-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 50px;
+	background-color: #1B5B31;
+	color: white;
+}
+
+.kontakt-bottom-1 a:hover {
+	color: #1B5B31;
+	background-color: white;
+}
+
+.linia {
+	width: 80%;
+}
+
+.kontakt-bottom-2 {
+	width: 80%;
+	display: flex;
+	margin-left: 10%;
+	font-size: 14px;
+}
+
+#kontakt-bottom-2-pierwszy {
+	padding-left: 0px;
+}
+
+.kontakt-bottom-2 a {
+	text-decoration: none;
+	color: white;
+	padding-left: 50px;
+}
+
+.kontakt-bottom-3 {
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin-left: 10%;
+}
